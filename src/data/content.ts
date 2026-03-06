@@ -39,7 +39,7 @@ export interface Stat {
 
 // ===== СТАТИСТИКА =====
 export const stats: Stat[] = [
-  { value: "31", label: "выпуск" },
+  { value: "32", label: "выпуска" },
   { value: "Дважды в месяц", label: "новые эпизоды" },
   { value: "30+", label: "гостей" },
   { value: "Школьники", label: "активная аудитория" },
