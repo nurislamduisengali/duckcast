@@ -49,6 +49,16 @@ export const stats: Stat[] = [
 // Первый выпуск с featured: true будет показан как главный
 export const episodes: Episode[] = [
   {
+    id: "ep-32",
+    title: "Как поступить в НИШ?",
+    guestName: "Как поступить в НИШ?",
+    guestRole: "Ученики НИШ о поступление и обучение.",
+    description: "Гостями выпуска стали ученики 7-го класса, недавно поступившие в НИШ. Они рассказали, как готовились к экзаменам, какие задания были самыми сложными и что помогло им пройти отбор. Также ребята поделились впечатлениями от первых месяцев учёбы и тем, чем НИШ отличается от обычной школы.",
+    thumbnailUrl: "/previews/ep-32.png",
+    youtubeUrl: "https://youtu.be/J8m12NRveDY?si=HkQJpwBW974QU63X",
+    featured: true,
+  },
+  {
     id: "ep-31",
     title: "История поступление в Harvard",
     guestName: "Шадияр Лес",
@@ -94,15 +104,15 @@ export const episodes: Episode[] = [
     thumbnailUrl: "/previews/ep-27.jpg",
     youtubeUrl: "https://youtu.be/Mx_z5EPx2fA?si=IpmOH3YAr00-qvOR",
   },
-  {
-    id: "ep-26",
-    title: "",
-    guestName: "Асан Табылды ",
-    guestRole: "Основатель проекта Icarus",
-    description: "Гость выпуска — Асан Табылды, основатель проектов Icarus, победитель соревнования по ракетостроению от National Space Society (NSS) и участник международной конференции по развитию космоса в США. В интервью обсуждаем частную космонавтику, развитие аэрокосмических технологий и будущее ракетостроения. Надеемся,  что данный ролик будет для вас полезным и увлекательным.",
-    thumbnailUrl: "/previews/ep-25.jpg",
-    youtubeUrl: "https://youtu.be/GhdndESHDqY?si=fDfT7AKPnOn5W4X6",
-  },
+  //{
+//   id: "ep-26",
+//    title: "",
+ //   guestName: "Асан Табылды ",
+ //   guestRole: "Основатель проекта Icarus",
+//    description: "Гость выпуска — Асан Табылды, основатель проектов Icarus, победитель соревнования по ракетостроению от National Space Society (NSS) и участник международной конференции по развитию космоса в США. В интервью обсуждаем частную космонавтику, развитие аэрокосмических технологий и будущее ракетостроения. Надеемся,  что данный ролик будет для вас полезным и увлекательным.",
+//    thumbnailUrl: "/previews/ep-25.jpg",
+//    youtubeUrl: "https://youtu.be/GhdndESHDqY?si=fDfT7AKPnOn5W4X6",
+//  },
 ];
 
 // ===== ГОСТИ =====
